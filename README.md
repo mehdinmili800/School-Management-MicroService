@@ -31,54 +31,6 @@ Bootstrap / Tailwind CSS (Styling)
 
 
 
-school-management/
-│
-├── eureka-server/
-│   └── src/main/java/com/school/eurekaserver/
-│       └── EurekaServerApplication.java
-│
-├── gateway-service/
-│   └── src/main/java/com/school/gatewayservice/
-│       ├── config/                # Gateway configurations (Routing, Security)
-│       └── GatewayServiceApplication.java
-│
-├── user-service/
-│   └── src/main/java/com/school/userservice/
-│       ├── config/                # Security settings, CORS, etc.
-│       ├── controller/            # API Endpoints
-│       ├── dto/                   # Data Transfer Objects
-│       ├── entity/                # Database entities
-│       ├── exception/             # Exception handling
-│       ├── repository/            # Data access interfaces
-│       ├── service/               # Service interfaces
-│       ├── serviceimpl/           # Service implementations
-│       ├── util/                  # Utility classes
-│       └── UserServiceApplication.java
-│
-├── academic-service/
-│   └── src/main/java/com/school/academicservice/
-│       ├── config/
-│       ├── controller/
-│       ├── dto/
-│       ├── entity/
-│       ├── exception/
-│       ├── repository/
-│       ├── service/
-│       ├── serviceimpl/
-│       └── AcademicServiceApplication.java
-│
-└── attendance-service/
-└── src/main/java/com/school/attendanceservice/
-├── config/
-├── controller/
-├── dto/
-├── entity/
-├── exception/
-├── repository/
-├── service/
-├── serviceimpl/
-└── AttendanceServiceApplication.java
-
 
 🌟 Why Contribute?
 Learn and grow by contributing to a real-world microservices project.
